@@ -2,7 +2,10 @@
 
 ## 🔧 Task
 
-The xFusionCorp security team has mandated the use of custom Apache users per application to harden the environment. Your task today:
+Task 1:
+In response to heightened security concerns, the xFusionCorp Industries security team has opted for custom Apache users for their web applications. Each user is tailored specifically for an application, enhancing security measures.
+
+Your task is to create a custom Apache user according to the outlined specifications:
 
 - Create a custom user named `mariyam` on **App Server 2**.
 - The user must have:
