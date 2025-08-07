@@ -1,5 +1,9 @@
 # 🚀 100 Days of DevOps @ xFusionCorp (KodeKloud)
 
+<p align="center">
+  <img src="assets/banner.png" alt="100 Days of DevOps by daretechie banner" width="600"/>
+</p>
+
 This repository tracks my journey through the **KodeKloud 100 Days of DevOps Challenge**.
 Each day simulates real-world tasks for a fictional company, **xFusionCorp**, focused on **Project Nautilus**—a naval-grade application deployed in a 3-tier architecture using LAMP, Nginx, MariaDB, Jenkins, and more.
 
@@ -34,3 +38,7 @@ Each day simulates real-world tasks for a fictional company, **xFusionCorp**, fo
 
 - [KodeKloud 100 Days of DevOps](https://kodekloud.com/100-days-of-devops)
 - [xFusionCorp Project Nautilus](https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus#infrastructure-details)
+
+---
+
+#devops #100DaysOfDevOps #linux #automation #kodekloud

@@ -4,7 +4,7 @@
 
 # Variables
 USERNAME="mariyam"
-UID="1631"
+USER_ID="1631"
 HOMEDIR="/var/www/mariyam"
 
 # Create user with specific UID and home directory
@@ -12,7 +12,7 @@ HOMEDIR="/var/www/mariyam"
 #   -u → sets UID
 #   -d → sets custom home directory
 #   -m → creates the home directory
-sudo useradd -u "$UID" -d "$HOMEDIR" -m "$USERNAME"
+sudo useradd -u "$USER_ID" -d "$HOMEDIR" -m "$USERNAME"
 
 # Verify user was created
 id "$USERNAME"
