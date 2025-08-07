@@ -1,7 +1,7 @@
 # 🚀 100 Days of DevOps @ xFusionCorp (KodeKloud)
 
 <p align="center">
-  <img src="assets/banner.png" alt="100 Days of DevOps by daretechie banner" width="600"/>
+  <img src="assets/banner.png" alt="100 Days of DevOps by daretechie banner" width="100%" height="500"/>
 </p>
 
 This repository tracks my journey through the **KodeKloud 100 Days of DevOps Challenge**.
