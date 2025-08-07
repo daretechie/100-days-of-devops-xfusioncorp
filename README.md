@@ -22,10 +22,10 @@ Each day simulates real-world tasks for a fictional company, **xFusionCorp**, fo
 
 ## 📅 Progress Tracker
 
-| Day | Title                               | Task Link                                       | Solution Link                                              | Notes                                             |
-| --- | ----------------------------------- | ----------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------- |
-| 01  | Create Custom Apache User `mariyam` | [Task](day01-create-custom-apache-user/task.md) | [Solution](day01-create-custom-apache-user/create_user.sh) | [Notes](day01-create-custom-apache-user/notes.md) |
-| ... | ...                                 | ...                                             | ...                                                        | ...                                               |
+| Day | Title                               | Concept         | Task Link                                       | Solution Link                                              | Notes                                             |
+| --- | ----------------------------------- | --------------- | ----------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------- |
+| 01  | Create Custom Apache User `mariyam` | User Management | [Task](day01-create-custom-apache-user/task.md) | [Solution](day01-create-custom-apache-user/create_user.sh) | [Notes](day01-create-custom-apache-user/notes.md) |
+| 02  |                                     |                 |                                                 |                                                            |                                                   |
 
 ---
 
