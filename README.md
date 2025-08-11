@@ -1,15 +1,24 @@
-# 🚀 100 Days of DevOps @ xFusionCorp (KodeKloud)
+# 🚀 100 Days of DevOps Challenge @ xFusionCorp (KodeKloud)
 
 <p align="center">
-  <img src="assets/banner.png" alt="100 Days of DevOps by daretechie banner" width="100%" height="500"/>
+  <img src="assets/banner.png" alt="Learning Journey by daretechie" width="100%" height="500"/>
 </p>
 
-This repository tracks my journey through the **KodeKloud 100 Days of DevOps Challenge**.
-Each day simulates real-world tasks for a fictional company, **xFusionCorp**, focused on **Project Nautilus**—a naval-grade application deployed in a 3-tier architecture using LAMP, Nginx, MariaDB, Jenkins, and more.
+This repository contains my learning journey with xFusionCorp, including both Linux practice tasks and the official **100 Days of DevOps Challenge** from KodeKloud.
 
----
+## 📁 Repository Structure
 
-## 🌐 Project Nautilus Architecture
+```
+.
+├── 100-days-of-devops/    # Official 100 Days of DevOps challenge tasks
+└── linux-practice/        # Linux practice tasks (previously completed)
+```
+
+## 🚀 100 Days of DevOps Challenge
+
+This is the official KodeKloud challenge that simulates real-world tasks for **xFusionCorp**'s **Project Nautilus**—a naval-grade application deployed in a 3-tier architecture using LAMP, Nginx, MariaDB, Jenkins, and more.
+
+### Project Nautilus Architecture
 
 - **Data Tier:** MariaDB
 - **Application Tier:** LAMP stack
@@ -22,12 +31,10 @@ Each day simulates real-world tasks for a fictional company, **xFusionCorp**, fo
 
 ## 📅 Progress Tracker
 
-| Day | Title                                     | Concept                    | Task Link                                       | Solution Link                                              | Notes                                             |
-| --- | ----------------------------------------- | -------------------------- | ----------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------- |
-| 01  | Create Custom Apache User `mariyam`       | User Management            | [Task](day01-create-custom-apache-user/task.md) | [Solution](day01-create-custom-apache-user/create_user.sh) | [Notes](day01-create-custom-apache-user/notes.md) |
-| 02  | Create group nautilus_noc, add user jarod | Group-Based Access Control | [Task](day02-create-group-add-user/task.md)     | [Solution](day02-create-group-add-user/create_group.sh)    | [Notes](day02-create-group-add-user/notes.md)     |
-| 03  | Create Non-Interactive User for Backup Agent `john` | Secure Service Accounts | [Task](day03-non-interactive-user/task.md) | [Solution](day03-non-interactive-user/create_user.sh) | [Notes](day03-non-interactive-user/notes.md) |
-| 04  | Create Service User Without Home Directory `rose` | Service Accounts | [Task](day04-create-service-user-no-home/task.md) | [Solution](day04-create-service-user-no-home/create_rose.sh) | [Notes](day04-create-service-user-no-home/notes.md) |
+| Day | Title                                     | Concept                    | Task | Solution | Notes |
+| --- | ----------------------------------------- | -------------------------- | ---- | -------- | ----- |
+| 01  | Create Non-Interactive User `john`        | User Management            | [Task](100-days-of-devops/day01-create-user-noninteractive/task.md) | [Solution](100-days-of-devops/day01-create-user-noninteractive/create_john.sh) | [Notes](100-days-of-devops/day01-create-user-noninteractive/notes.md) |
+| 02  | Create Temporary User `james` with Expiry | Account Lifecycle          | [Task](100-days-of-devops/day02-create-temp-user-expiry/task.md) | [Solution](100-days-of-devops/day02-create-temp-user-expiry/create_james_temp.sh) | [Notes](100-days-of-devops/day02-create-temp-user-expiry/notes.md) |
 
 ---
 
