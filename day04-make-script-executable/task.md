@@ -1,19 +1,17 @@
-# Day 4 – Grant Executable Permissions to Backup Script (xFusionCorp)
+# Day 5 – Install and Permanently Disable SELinux (xFusionCorp)
 
 ## 🔧 Task
-The sysadmin team has created a new bash script `xfusioncorp.sh` to automate backups.  
-The script is already present on **App Server 1**, but it lacks executable permissions.
+Following a security audit, the team has decided to prepare App Server 3 for SELinux testing.
 
-**Your job:**
-- Grant executable permissions to `/tmp/xfusioncorp.sh`
-- Ensure **all users** can execute it (world-executable).
+### Requirements:
+1. Install the required SELinux packages.
+2. Permanently disable SELinux.
+3. Do not reboot (maintenance reboot scheduled tonight).
 
 ## 🖥️ Target Server
-- Hostname: `stapp01.stratos.xfusioncorp.com`
-- Location of script: `/tmp/xfusioncorp.sh`
+- Hostname: `stapp03.stratos.xfusioncorp.com`
+- IP: `172.16.238.12`
 
-## 📌 Requirements
-- File must be executable by:
-  - Owner
-  - Group
-  - Others
+## 📌 Notes
+- Disregard the current SELinux runtime status (`getenforce`).
+- After the scheduled reboot, SELinux should be **disabled**.
