@@ -85,11 +85,6 @@ sudo crontab -l
    - Check file permissions on scripts
    - Verify user has execute permissions
 
-## 🚀 Git Commands
-```bash
-
-```
-
 ## 📚 Additional Resources
 - [Cron HowTo](https://help.ubuntu.com/community/CronHowto)
 - [Crontab Manual](https://man7.org/linux/man-pages/man5/crontab.5.html)
