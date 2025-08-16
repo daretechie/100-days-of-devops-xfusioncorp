@@ -1,7 +1,9 @@
 # Day 7 - Configure Password-less SSH from Jump Host to App Servers
 
 ## 🔍 Overview
+
 Password-less SSH authentication uses public-key cryptography to enable secure, automated access between servers without manual password entry. This is crucial for:
+
 - Automated deployments and scripts
 - CI/CD pipelines
 - Remote system administration
@@ -10,17 +12,20 @@ Password-less SSH authentication uses public-key cryptography to enable secure, 
 ## 🛠️ Implementation Steps
 
 ### 1. Switch to Thor User
+
 ```bash
 # Switch to thor user (from root)
 sudo su - thor
 ```
 
 ### 2. Generate SSH Key Pair
+
 ```bash
    ssh-keygen -t rsa -b 4096
 ```
 
 ### 3. Copy Public Key to App Servers
+
 ```bash
 # Using ssh-copy-id (recommended)
 ssh-copy-id tony@stapp01.stratos.xfusioncorp.com
@@ -32,6 +37,7 @@ ssh-copy-id banner@stapp03.stratos.xfusioncorp.com
 ```
 
 ### 4. Test Password-less Login
+
 ```bash
 # Test connection to each server
 ssh tony@stapp01.stratos.xfusioncorp.com "echo 'Successfully connected to: '$(hostname)"
@@ -42,6 +48,7 @@ ssh banner@stapp03.stratos.xfusioncorp.com "echo 'Successfully connected to: '$(
 ## 🔒 Security Best Practices
 
 ### File Permissions
+
 ```bash
 # On local machine (thor@jump_host)
 chmod 700 ~/.ssh
@@ -55,7 +62,9 @@ chmod 644 ~/.ssh/known_hosts
 ```
 
 ### SSH Config File (Optional but Recommended)
+
 Create or edit `~/.ssh/config` on the jump host:
+
 ```
 Host stapp01
     HostName stapp01.stratos.xfusioncorp.com
@@ -75,17 +84,21 @@ Host stapp03
     IdentityFile ~/.ssh/id_rsa
     StrictHostKeyChecking no
 ```
+
 Then connect simply with: `ssh stapp01`
 
 ## 🚨 Troubleshooting
 
 ### Common Issues
+
 1. **Permission Denied (publickey)**
+
    - Verify `~/.ssh/authorized_keys` permissions (must be 600)
    - Check SELinux context: `restorecon -R -v ~/.ssh`
    - Verify `PubkeyAuthentication yes` in `/etc/ssh/sshd_config`
 
 2. **Connection Refused**
+
    - Check if SSH service is running: `systemctl status sshd`
    - Verify network connectivity and firewall rules
 
@@ -96,17 +109,21 @@ Then connect simply with: `ssh stapp01`
 ## 📝 Notes
 
 ### Key Management
+
 - Rotate SSH keys periodically (recommended every 90 days)
 - Use different keys for different environments
 - Consider using an SSH agent for added security
 
 ### Security Considerations
+
 - Never share private keys
 - Use passphrases for additional security in production
 - Consider using SSH certificates for large environments
 
 ### Automation Script
+
 For automated setups, use this script:
+
 ```bash
 #!/bin/bash
 
@@ -134,6 +151,7 @@ echo "Password-less SSH setup complete!"
 ```
 
 ## 📚 Additional Resources
+
 - [OpenSSH Documentation](https://www.openssh.com/manual.html)
 - [SSH Key Management Best Practices](https://www.ssh.com/ssh/key/)
 - [SSH Config File Options](https://linux.die.net/man/5/ssh_config)
