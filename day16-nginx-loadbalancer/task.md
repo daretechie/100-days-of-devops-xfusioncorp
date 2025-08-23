@@ -27,9 +27,3 @@ The Nautilus production support team needs to configure the LBR server as the fi
   - stapp01: 172.16.238.10:8089
   - stapp02: 172.16.238.11:8089
   - stapp03: 172.16.238.12:8089
-
-## 🚀 Git Commands
-
-```bash
-
-```
