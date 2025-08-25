@@ -25,12 +25,3 @@ The system admin team at xFusionCorp Industries needs to prepare the environment
 ## 📌 Notes
 
 - WordPress code is already available and mounted under `/var/www/html`.
-- Only perform tasks **a–d**.
-
-```bash
-
-```
-
-```
-
-```
