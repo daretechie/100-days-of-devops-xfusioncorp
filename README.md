@@ -31,10 +31,10 @@ This is the official KodeKloud challenge that simulates real-world tasks for **x
 
 ## 📅 Progress Tracker
 
-| Day | Title                                     | Concept                    | Task | Solution | Notes |
-| --- | ----------------------------------------- | -------------------------- | ---- | -------- | ----- |
-| 01  | Create Non-Interactive User `john`        | User Management            | [Task](100-days-of-devops/day01-create-user-noninteractive/task.md) | [Solution](100-days-of-devops/day01-create-user-noninteractive/create_john.sh) | [Notes](100-days-of-devops/day01-create-user-noninteractive/notes.md) |
-| 02  | Create Temporary User `james` with Expiry | Account Lifecycle          | [Task](100-days-of-devops/day02-create-temp-user-expiry/task.md) | [Solution](100-days-of-devops/day02-create-temp-user-expiry/create_james_temp.sh) | [Notes](100-days-of-devops/day02-create-temp-user-expiry/notes.md) |
+| Day | Title                                     | Concept           | Task                                                                | Solution                                                                          | Notes                                                                 |
+| --- | ----------------------------------------- | ----------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 01  | Create Non-Interactive User `john`        | User Management   | [Task](100-days-of-devops/day01-create-user-noninteractive/task.md) | [Solution](100-days-of-devops/day01-create-user-noninteractive/create_john.sh)    | [Notes](100-days-of-devops/day01-create-user-noninteractive/notes.md) |
+| 02  | Create Temporary User `james` with Expiry | Account Lifecycle | [Task](100-days-of-devops/day02-create-temp-user-expiry/task.md)    | [Solution](100-days-of-devops/day02-create-temp-user-expiry/create_james_temp.sh) | [Notes](100-days-of-devops/day02-create-temp-user-expiry/notes.md)    |
 
 ---
 
@@ -51,5 +51,3 @@ This is the official KodeKloud challenge that simulates real-world tasks for **x
 ---
 
 #devops #100DaysOfDevOps #linux #automation #kodekloud
-
-
