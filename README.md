@@ -11,7 +11,7 @@ This repository contains my learning journey with xFusionCorp, including both Li
 ```
 .
 ├── 100-days-of-devops/    # Official 100 Days of DevOps challenge tasks
-└── linux-practice/        # Linux practice tasks (previously completed)
+   └── day01-create-user-noninteractive
 ```
 
 ## 🚀 100 Days of DevOps Challenge
