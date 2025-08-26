@@ -28,5 +28,3 @@ The system admin team at xFusionCorp Industries needs to prepare Apache for host
 
 - Only port **3000** should be used for Apache.
 - Ensure correct document root and directory permissions.
-
-## 🚀 Git Commands
