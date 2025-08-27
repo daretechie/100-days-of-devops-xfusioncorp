@@ -34,15 +34,3 @@ We need to configure **nginx** with **php-fpm 8.1** as per requirements.
 
 - `index.php` should be correctly processed by php-fpm via nginx.
 - Use socket instead of TCP for PHP-FPM.
-
-## 🚀 Git Commands
-
-```bash
-git add day20-nginx-phpfpm-setup
-git commit -m "Day 20 Task 20: Setup nginx + php-fpm 8.1 with socket on App Server 3"
-git push
-
----
-
-Do you also want me to include a **SELinux adjustment** (if enabled) since nginx sometimes cannot connect to php-fpm sockets without it?
-```
