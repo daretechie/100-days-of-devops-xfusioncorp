@@ -67,4 +67,12 @@ This is the official KodeKloud challenge that simulates real-world tasks for **x
 
 ---
 
+## Join the Challenge
+
+Ready to start your own DevOps journey? 
+
+[**Sign up for KodeKloud Engineer and get started!**](https://engineer.kodekloud.com/signup?referral=64ad8bc7803455eea0a89fde)
+
+---
+
 #devops #100DaysOfDevOps #linux #automation #kodekloud
