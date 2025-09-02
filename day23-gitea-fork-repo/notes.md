@@ -1,0 +1,1 @@
+This task involves interacting with a Gitea instance, which is a self-hosted Git service similar to GitHub or GitLab. Forking is a fundamental concept in collaborative, distributed version control. It creates a personal copy of a repository, allowing a user to make changes without affecting the original project.

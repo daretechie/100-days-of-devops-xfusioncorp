@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+dev_post.md
 
 # Distribution / packaging
 .Python
