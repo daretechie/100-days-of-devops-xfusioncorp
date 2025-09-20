@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web: # service name (can be any)
+    image: httpd:latest
+    container_name: httpd
+    ports:
+      - "8083:80" # host:container
+    volumes:
+      - /opt/sysops:/usr/local/apache2/htdocs
+    restart: always
