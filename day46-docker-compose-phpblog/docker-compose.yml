@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  web:
+    container_name: php_blog
+    image: php:8.2-apache # any apache tag works
+    ports:
+      - "5002:80"
+    volumes:
+      - /var/www/html:/var/www/html
+
+  db:
+    container_name: mysql_blog
+    image: mariadb:latest
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: database_blog
+      MYSQL_USER: bloguser # custom user (not root)
+      MYSQL_PASSWORD: Str0ngP@ssw0rd # complex password
+      MYSQL_ROOT_PASSWORD: RootP@ss1 # (optional) root pw so container starts
