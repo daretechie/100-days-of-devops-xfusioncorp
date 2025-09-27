@@ -9,7 +9,7 @@ This repository contains my learning journey with xFusionCorp, including both Li
 ##  Quarterly Posts (Dev.to)
 
 - [**Days 1-25: How I Fought Imposter Syndrome and Built Real Momentum**](https://dev.to/daretechie/25-days-of-devops-how-i-fought-imposter-syndrome-and-built-real-momentum-29op)
-- [**Days 26-50: Halfway There and Powering Through**](link-to-your-dev-to-post)
+- [**Days 26-50: Halfway There and Powering Through**](https://dev.to/daretechie/100-days-of-devops-halfway-there-and-powering-through-days-26-50-407e)
 - *More coming soon...*
 
 ---
